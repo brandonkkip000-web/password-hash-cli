@@ -1,15 +1,9 @@
-﻿# password-hash-cli
+﻿# Password Hash CLI
 
-CLI utility for secure password hashing with Argon2id.
+A command-line tool to generate secure password hashes using industry-standard algorithms like bcrypt or SHA-256.
 
 ## Installation
-`ash
-pip install .
-
-Usage
-
-password-hash-cli hash <password>
-
-License
-
-MIT License
+```bash
+git clone https://github.com/brandonkkip000-web/password-hash-cli.git
+cd password-hash-cli
+pip install -r requirements.txt
